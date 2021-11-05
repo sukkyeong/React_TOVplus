@@ -2,8 +2,10 @@
 
 .footer {
   width: 100%;
-  background-color: makerGreen;
+  padding: 0.5em;
   text-align: center;
+  border-radius: 0 0 20px 20px;
+  background-color: #205081;
 }
 
 .title {

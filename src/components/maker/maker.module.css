@@ -3,7 +3,7 @@
 
 .maker {
   width: 100%;
-  max-width: 80rem;
+  /* max-width: 80rem; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -18,6 +18,24 @@
 
 @media screen and (max-width: mediaQuery) {
   .container {
+    flex-direction: column;
+  }
+}
+
+.content {
+  display: flex;
+}
+
+.detail {
+  flex: 1 1 70%;
+}
+
+.list {
+  flex: 1 1 30%;
+}
+
+@media screen and (max-width: 48rem) {
+  .content {
     flex-direction: column;
   }
 }

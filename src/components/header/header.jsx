@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import styles from './header.module.css';
 
 const Header = ({ onLogout }) => (
@@ -8,8 +9,8 @@ const Header = ({ onLogout }) => (
         Logout
         </button>
         )}
-        <img className={styles.logo} src="/images/logo.png" alt="logo" />
-        <h1 className={styles.title}>Business Card Maker</h1>
+        <img className={styles.logo} src="/images/voistore_logo.png" alt="logo" />
+        <h1 className={styles.title}>TOVplus</h1>
     </header>
 );
 
